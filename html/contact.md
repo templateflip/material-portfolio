@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Contact
 description: 'Your contact page description'
 ---

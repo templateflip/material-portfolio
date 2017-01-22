@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 description: 'Your about page description'
 ---

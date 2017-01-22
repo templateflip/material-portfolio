@@ -1,0 +1,30 @@
+extends ./_layout-default.pug
+
+block content
+  .container
+    each post in page.paginated
+      div
+        a(href=post.url)
+          h2= post.title
+        div= post.date
+        if post.tags
+          each tag in post.tags
+            a(href=tag.url)
+              div= tag.title
+        if post.categories
+          each cateogry in post.categories
+            a(href=cateogry.url)
+              div= cateogry.title
+      p!= post.summary
+      p
+        a(href=post.url) Read More
+      
+    ul
+      if page.prevPath          
+        li
+          span &larr; <a href="#{page.prevPath}">Newer</a>
+      if page.nextPath
+        li
+          span <a href="#{page.nextPath}">Older</a> &rarr;
+
+    p Subscribe to <a href="/feed.xml">RSS feed</a>

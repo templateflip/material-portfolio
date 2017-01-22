@@ -1,0 +1,24 @@
+dest: '/'
+layout: 'page'
+permalink: 'default'
+dateFormat: 'mmmm d, yyyy'
+summaryLength: 255
+index:
+  layout: 'archive'
+  paginate: 10
+  title: 'Blog'
+  description: ''
+  dest: '/blog'
+tags:
+  layout: 'archive'
+  paginate: 50
+  title: 'Articles tagged %s'
+  dest: 'tag'
+categories:
+  layout: 'archive'
+  paginate: 50
+  title: '%s archive'
+  dest: 'category'
+feed:
+  content: 'full'
+  entries: 10
