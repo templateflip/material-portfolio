@@ -1,0 +1,12 @@
+extends ./_layout-root.pug
+
+block header
+  header.container
+    h1= page.title
+
+block footer
+  footer.container
+     p &copy; <a href="/">#{site.title}</a> - Built with <a href="https://mmpilot.kunruchcreations.com/" target="_blank">MMPilot</a>
+
+block content
+  .container!= page.content

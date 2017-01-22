@@ -1,0 +1,9 @@
+## You can add data for site here which will be available as site.{key} in pug templates
+site:
+  url: "https://example.com"
+  title: MMPilot Basic Template
+  
+## overrides when built with -d or --development option
+development:
+  site:
+    url: "http://localhost:3000"

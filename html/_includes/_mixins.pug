@@ -1,0 +1,7 @@
+mixin titlemeta(title, sitename)
+  if title === sitename
+    title #{title}
+  else
+    title #{title} - #{sitename}
+  if page.description
+    meta(name='description', content=page.description)
