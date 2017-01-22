@@ -2,7 +2,7 @@
 This is a basic starter template for [MMPilot](https://mmpilot.kunruchcreations.com/) - It doesn't include any CSS framework or JavaScript libraries.
 It has just the bare bone files and setup to kickstart your html, CSS and JS files
 
-Feel free to add your own frameworks to the project. Turn it into a website or a webapp, the choice is yours.
+It has just the bare bone files and setup to kickstart your website with MMPilot.
 
 You may also want to check out other advanced [MMPilot templates](https://mmpilot.kunruchcreations.com/templates/), in case this template is too minimal for you.
 
@@ -22,8 +22,10 @@ You may also want to check out other advanced [MMPilot templates](https://mmpilo
 
 ## Deploy to GitHub pages (Optional)
 1. Update ``.travis.yml`` with your own details.
+
 2. Change the remote url to your own github repo. ``git remote set-url origin <Your Git Repo URL>``
-2. Deploy to GitHub pages by running ``npm run deploy``
+
+3. Deploy to GitHub pages by running ``npm run deploy``
 
 ## License
 

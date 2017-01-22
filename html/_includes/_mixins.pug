@@ -5,3 +5,27 @@ mixin titlemeta(title, sitename)
     title #{title} - #{sitename}
   if page.description
     meta(name='description', content=page.description)
+
+
+mixin menu(list, classes)
+  nav(role="navigation")
+    ul(class=classes)
+      each item in list
+        +menuitem(item)
+
+mixin submenu(item)
+  if item.children
+    ul.submenu
+      each subitem in item.children
+        +menuitem(subitem)
+
+mixin menuitem(item)
+  if item.url
+    li(class=['menu-item'], class={'current-menu-item': page.path == item.url})
+      a(href=item.url)&attributes(item.attributes)
+        if(item.icon)
+          <svg class="icon icon-#{item.icon}"><use xlink:href="#icon-#{item.icon}"></use></svg>
+        | #{item.title}
+      +submenu(item)
+  else
+    li(class='menu-header') #{item.title}

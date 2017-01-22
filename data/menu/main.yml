@@ -1,7 +1,7 @@
 - title: "Home"
   url: "/"
 - title: "Blog"
-  url: "/"
+  url: "/blog"
 - title: "About"
   url: "/about"
 - title: "Contact"

@@ -3,6 +3,7 @@ extends ./_layout-root.pug
 block header
   header.container
     h1= page.title
+    +menu(data.menu.main, 'menu')
 
 block footer
   footer.container
