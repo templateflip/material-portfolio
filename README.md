@@ -21,11 +21,10 @@ You may also want to check out other advanced [MMPilot templates](https://mmpilo
 5. Build for production: ``npm run build``
 
 ## Deploy to GitHub pages (Optional)
-1. Update ``.travis.yml`` with your own details.
 
-2. Change the remote url to your own github repo. ``git remote set-url origin <Your Git Repo URL>``
+1. Change the remote url to your own github repo. ``git remote set-url origin <Your Git Repo URL>``
 
-3. Deploy to GitHub pages by running ``npm run deploy``
+2. Deploy to GitHub pages by running ``npm run deploy``
 
 ## License
 
