@@ -22,7 +22,7 @@ mixin submenu(item)
 mixin menuitem(item)
   if item.url
     li(class=['menu-item'], class={'current-menu-item': page.path == item.url})
-      a(href=item.url)&attributes(item.attributes)
+      a(href=site.base + item.url)&attributes(item.attributes)
         if(item.icon)
           <svg class="icon icon-#{item.icon}"><use xlink:href="#icon-#{item.icon}"></use></svg>
         | #{item.title}
