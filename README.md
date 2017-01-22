@@ -1,8 +1,9 @@
 # mmpilot-basic-template
 This is a basic starter template for [MMPilot](https://mmpilot.kunruchcreations.com/) - It doesn't include any CSS framework or JavaScript libraries.
-It has just the bare bone files and setup to kickstart your html, CSS and JS files
 
-It has just the bare bone files and setup to kickstart your website with MMPilot.
+It has just the bare bone files and setup to kickstart your website with MMPilot. 
+
+**[Live Demo](https://kunruch.github.io/mmpilot-basic-template/)**
 
 You may also want to check out other advanced [MMPilot templates](https://mmpilot.kunruchcreations.com/templates/), in case this template is too minimal for you.
 
