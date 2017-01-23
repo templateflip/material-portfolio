@@ -1,13 +1,29 @@
 extends ./_layout-root.pug
 
 block header
-  header.container
-    h1= site.title
-    +menu(data.menu.main, 'menu')
+  header.mdl-layout__header.mdl-layout__header--waterfall.site-header
+    .mdl-layout__header-row.site-logo-row
+      span.mdl-layout__title
+        div.site-logo
+        span.site-description=site.desc
+    .mdl-layout__header-row.site-navigation-row.mdl-layout--large-screen-only
+      nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
+        each item in data.menu.main         
+          a.mdl-navigation__link(href=item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
+
+  .mdl-layout__drawer.mdl-layout--small-screen-only
+    nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
+      each item in data.menu.main         
+        a.mdl-navigation__link(href=item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
 
 block footer
-  footer.container
-     p &copy; <a href="#{site.base + '/'}">#{site.title}</a> - Built with <a href="https://mmpilot.kunruchcreations.com/" target="_blank">MMPilot</a>
+  footer.mdl-mini-footer
+    .mdl-mini-footer__left-section
+      div.mdl-logo &copy; Unitiled. Design: <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>
+    .mdl-mini-footer__right-section
+      ul.mdl-mini-footer__link-list
+        li
+          a(href="/privacy-policy") Privacy & Terms
 
 block content
   .container!= page.content
