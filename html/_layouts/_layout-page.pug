@@ -1,7 +1,12 @@
 extends ./_layout-default.pug
 
 block content
-  article
-    .container
-        h1 #{page.title}
-    .container!= page.content
+  div.mdl-grid.site-max-width
+    .mdl-cell.mdl-cell--12-col.mdl-card.mdl-shadow--4dp.site-content
+      .mdl-card__title
+        h1.mdl-card__title-text #{page.title}
+      .mdl-card__media
+        if page.image
+          img.article-image(src=page.image, border="0", alt=page.title)
+      .mdl-grid.site-copy
+        .mdl-cell.mdl-cell--12-col!= page.content
