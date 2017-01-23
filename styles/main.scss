@@ -5,6 +5,8 @@ img {
   max-width: 100%;
 }
 
+// Site header
+
 .site-header {
   position: relative;
 }
@@ -94,6 +96,8 @@ img {
 }
 
 
+// Site Content 
+
 .site-content {
   margin: 1em auto;
   padding-bottom: 2em;
@@ -109,6 +113,41 @@ img {
   max-width: 700px;
 }
 
+//Image card
+
+.demo-card-image.mdl-card {
+  width: 192px;
+  height: 192px;
+}
+
+.person1 {
+  background: url('../img/person1.jpg') center / cover;
+}
+
+
+.person2 {  
+  background: url('../img/person2.jpg') center / cover;
+}
+
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+// Contact form
+
+.form-contact .mdl-textfield {
+  width: 100%;
+}
+
+// Footer
 
 footer {
   .mdl-mini-footer__left-section a {
