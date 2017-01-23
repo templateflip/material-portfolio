@@ -1,7 +1,7 @@
 {
-  "name": "mmpilot-basic-template",
+  "name": "material-portfolio",
   "version": "1.0.0",
-  "description": "This is a basic starter template for MMPilot.",
+  "description": "A Material design portfolio template built with Material Design Light framework by TemplateFlip.com",
   "scripts": {
     "clean": "mmpilot clean",
     "build": "mmpilot build",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kunruch/mmpilot-basic-template.git"
+    "url": "git+https://github.com/templateflip/material-portfolio.git"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "TemplateFlip.com",
+  "license": "Creative Commons Attribution 3.0 Unported License",
   "bugs": {
-    "url": "https://github.com/kunruch/mmpilot-basic-template/issues"
+    "url": "https://github.com/templateflip/material-portfolio/issues"
   },
-  "homepage": "https://github.com/kunruch/mmpilot-basic-template#readme",
+  "homepage": "https://github.com/templateflip/material-portfolio#readme",
    "devDependencies": {
     "mmpilot": "^0.6.3",
     "npm-run-all": "^4.0.1"

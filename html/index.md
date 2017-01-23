@@ -1,6 +1,6 @@
 ---
 layout: 'default'
-title: 'MMPilot Basic Template'
+title: 'Material Portfolio Template Demo'
 description: 'This is a basic starter template for MMPilot. It does not include any CSS framework or JavaScript libraries.'
 ---
 

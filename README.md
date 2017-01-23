@@ -1,15 +1,13 @@
-# mmpilot-basic-template
-This is a basic starter template for [MMPilot](https://mmpilot.kunruchcreations.com/) - It doesn't include any CSS framework or JavaScript libraries.
+# Material Design Portfolio Template
+A Material design portfolio template built with [Material Design Light](https://getmdl.io/) framework by TemplateFlip.com.
 
-It has just the bare bone files and setup to kickstart your website with MMPilot. 
+**[Live Demo](https://demo.templateflip.com/material-portfolio/)**  **Download**
 
-**[Live Demo](https://kunruch.github.io/mmpilot-basic-template/)**
+You may also want to check out other [Website templates](https://templateflip.com/).
 
-You may also want to check out other advanced [MMPilot templates](https://mmpilot.kunruchcreations.com/templates/), in case this template is too minimal for you.
+## Use this template from source (Optional)
 
-## How to use this template
-
-1. Clone or [download](https://github.com/kunruch/mmpilot-basic-template/archive/master.zip) this template.
+1. Clone or [download](https://github.com/templateflip/material-portfolio/archive/master.zip) this template.
 
 2. Install dependencies: ``npm install``
 
@@ -29,4 +27,5 @@ You may also want to check out other advanced [MMPilot templates](https://mmpilo
 
 ## License
 
-Licensed under the MIT License
+Licensed under the Creative [Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/).
+You can use this template for free in both personal as well as commercial projects. In return, just credit [TemplateFlip.com](https://templateflip.com/) for the website template on your site.

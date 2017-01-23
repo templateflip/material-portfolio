@@ -1,8 +1,8 @@
 ## You can add data for site here which will be available as site.{key} in pug templates
 site:
-  url: "https://kunruch.github.io" # Your sites's URL
-  base: "/mmpilot-basic-template" # Keep this blank if you site is at root domain else specify the name of subfolder.
-  title: "MMPilot Basic Template" # Your site's title
+  url: "https://demo.templateflip.com" # Your sites's URL
+  base: "/material-portfolio" # Keep this blank if you site is at root domain else specify the name of subfolder.
+  title: "TemplateFlip" # Your site's title
   
 ## overrides when built with -d or --development option
 development:
