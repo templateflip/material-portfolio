@@ -44,15 +44,15 @@ img {
 .site-logo {
   background: url(../img/site-logo.png) 50% no-repeat;
   background-size: cover;
-  height: 150px;
-  width: 150px;
-  margin: auto auto 0;
+  height: 120px;
+  width: 120px;
+  margin: 15px auto;
 }
 
 .is-compact .site-logo {
   height: 50px;
   width: 50px;
-  margin-top: 7px;
+  margin: 7px auto;
 }
 
 
