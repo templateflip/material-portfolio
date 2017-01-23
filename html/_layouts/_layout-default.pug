@@ -1,6 +1,7 @@
 extends ./_layout-root.pug
 
 block header
+  <a href="#{site.base+'/contact'}" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i class="material-icons">mail</i></a>
   header.mdl-layout__header.mdl-layout__header--waterfall.site-header
     .mdl-layout__header-row.site-logo-row
       span.mdl-layout__title
@@ -18,9 +19,8 @@ block header
 
 block footer
   footer.mdl-mini-footer
-    .mdl-mini-footer__left-section
+    div.footer-container
       div.mdl-logo &copy; Unitiled. Design: <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>
-    .mdl-mini-footer__right-section
       ul.mdl-mini-footer__link-list
         li
           a(href="#") Privacy & Terms

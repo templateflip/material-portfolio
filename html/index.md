@@ -74,7 +74,7 @@ description: 'Demo of Material design portfolio template by TemplateFlip.com.'
 </section>
 
 <section class="section--center mdl-grid site-max-width homepage-portfolio">
-    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio">View Portfolio<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio">View Portfolio</a>
 </section>
 
 <div class="homepage-footer">

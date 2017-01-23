@@ -231,12 +231,25 @@ img.article-image {
   width: 100%;
 }
 
+#contact-button {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
 // Footer
 
 footer {
-  .mdl-mini-footer__left-section a {
+  .mdl-logo a {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px dotted #aaa;
   }
+}
+.footer-container {
+  margin: 0 auto;
 }
