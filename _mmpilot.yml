@@ -2,7 +2,7 @@
 site:
   url: "https://demo.templateflip.com" # Your sites's URL
   base: "/material-portfolio" # Keep this blank if you site is at root domain else specify the name of subfolder.
-  title: "Material Portfolio" # Your site's title
+  title: "" # Your site's title
   desc: "Material Design Portfolio"  # Your site's description
   
 ## overrides when built with -d or --development option

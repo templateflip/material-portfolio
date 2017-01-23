@@ -1,5 +1,5 @@
 mixin titlemeta(title, sitename)
-  if title === sitename
+  if title === sitename || sitename.length === 0
     title #{title}
   else
     title #{title} - #{sitename}
