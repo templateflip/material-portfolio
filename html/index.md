@@ -74,7 +74,7 @@ description: 'Demo of Material design portfolio template by TemplateFlip.com.'
 </section>
 
 <section class="section--center mdl-grid site-max-width homepage-portfolio">
-    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio" data-upgraded=",MaterialButton,MaterialRipple">View Portfolio<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio">View Portfolio<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
 </section>
 
 <div class="homepage-footer">
@@ -96,7 +96,7 @@ description: 'Demo of Material design portfolio template by TemplateFlip.com.'
             <li class="mdl-list__item mdl-list__item--three-line">
               <span class="mdl-list__item-primary-content">
                 <i class="material-icons  mdl-list__item-avatar">person</i>
-                <span>Awesome work, they can do alomost anything..</span>
+                <span>Awesome work, they can do almost anything..</span>
                 <span class="mdl-list__item-text-body">
                 Aaron Paul, Marketing Lead, Awesome.com
                 </span>

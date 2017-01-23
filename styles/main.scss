@@ -186,6 +186,17 @@ img {
   margin-bottom: -1em;
   padding: 2rem 0;
 }
+
+
+.portfolio-card .mdl-card__title {
+  padding-bottom: 0;
+}
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
 //Image card
 
 .demo-card-image.mdl-card {
