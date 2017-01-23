@@ -10,12 +10,12 @@ block header
     .mdl-layout__header-row.site-navigation-row.mdl-layout--large-screen-only
       nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
         each item in data.menu.main         
-          a.mdl-navigation__link(href=item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
+          a.mdl-navigation__link(href=site.base+item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
 
   .mdl-layout__drawer.mdl-layout--small-screen-only
     nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
       each item in data.menu.main         
-        a.mdl-navigation__link(href=item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
+        a.mdl-navigation__link(href=site.base+item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
 
 block footer
   footer.mdl-mini-footer

@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio Page
 description: 'Your portfolio page description'
-image: "/img/portfolio-header.jpg"
+image: "../../img/portfolio-header.jpg"
 ---
 
 

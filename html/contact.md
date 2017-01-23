@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 description: 'Your contact page description'
-image: "/img/contact.jpg"
+image: "../img/contact.jpg"
 ---
 
 
