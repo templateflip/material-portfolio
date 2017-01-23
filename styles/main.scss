@@ -92,7 +92,7 @@ img {
 }
 
 .mdl-layout__content {
-  background-color: #eceff1;
+  background-color: #fefefe;
 }
 
 
@@ -100,8 +100,11 @@ img {
 
 .site-content {
   margin: 1em auto;
-  padding-bottom: 2em;
   min-height: 580px;
+}
+
+.page-content {
+  padding-bottom: 2em;
 }
 
 .site-max-width {
@@ -113,6 +116,76 @@ img {
   max-width: 700px;
 }
 
+// Portfolio cards
+
+.welcome-card > .mdl-card__title {
+  color: #fff;
+  height: 290px;
+  background: url('../img/cover.jpg') center / cover;
+}
+
+.event-card {
+  background: #3E4EB8;
+
+  .mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .mdl-card__title {
+    align-items: flex-start;
+  }
+
+  .mdl-card__title > h4 {
+    margin-top: 0;
+  }
+
+  .mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+  }
+
+  .mdl-card__actions > .material-icons {
+    padding-right: 10px;
+  }
+
+  .mdl-card__title,
+  .mdl-card__actions,
+  .mdl-card__actions > .mdl-button {
+    color: #fff;
+  }
+}
+
+.section__play-btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 150px;
+  
+  .material-icons {
+    font-size: 3rem;
+  }
+}
+
+.section--center {
+  margin: 0 auto 2rem;
+}
+
+.homepage-portfolio .mdl-button {
+  margin: 0 auto;
+}
+
+.homepage-footer {
+  background: #eee;
+  margin-bottom: -1em;
+  padding: 2rem 0;
+}
 //Image card
 
 .demo-card-image.mdl-card {
