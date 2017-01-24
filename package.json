@@ -10,7 +10,8 @@
     "dev-watch": "mmpilot watch -d",
     "dev": "npm-run-all clean dev-build --parallel dev-watch serve",
     "prod": "npm-run-all clean build serve",
-    "deploy": "npm-run-all clean build && mmpilot deploy"
+    "deploy": "npm-run-all clean build && mmpilot deploy",
+    "dist": "npm run dev-build && node dist.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
     "url": "https://github.com/templateflip/material-portfolio/issues"
   },
   "homepage": "https://github.com/templateflip/material-portfolio#readme",
-   "devDependencies": {
+  "devDependencies": {
+    "cross-zip": "^2.1.5",
     "mmpilot": "^0.6.3",
     "npm-run-all": "^4.0.1"
   },
