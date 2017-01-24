@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "mmpilot clean",
     "build": "mmpilot build",
+    "build-dist": "mmpilot build -c _mmpilot_dist.yml -d",
     "serve": "mmpilot serve",
     "dev-build": "mmpilot build -d",
     "dev-watch": "mmpilot watch -d",

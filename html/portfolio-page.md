@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio Page
 description: 'Your portfolio page description'
-image: "../../img/portfolio-header.jpg"
+image: "img/portfolio-header.jpg"
 ---
 
 
@@ -22,7 +22,7 @@ image: "../../img/portfolio-header.jpg"
     </p>
 </div>
   <div class="mdl-cell mdl-cell--6-col">
-      <img class="article-image" src="../../img/portfolio4.jpg" border="0" alt="">
+      <img class="article-image" src="img/portfolio4.jpg" border="0" alt="">
   </div>
 </div>
 

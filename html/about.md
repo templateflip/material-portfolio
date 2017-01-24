@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: 'Your about page description'
-image: "../img/about.jpg"
+image: "img/about.jpg"
 ---
 
 <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Introduction</h3>

@@ -10,12 +10,11 @@ description: 'Demo of Material design portfolio template by TemplateFlip.com.'
           <h2 class="mdl-card__title-text">Welcome</h2>
         </div>
         <div class="mdl-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris sagittis pellentesque lacus eleifend lacinia...
+          Demo of Material Design Portfolio Template by TemplateFlip. Click on "Download" button below to download the template.
         </div>
         <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
-            Get Started
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href=" https://templateflip.com/templates/material-portfolio/" target="_blank">
+            Download
           </a>
         </div>
     </div>
@@ -74,7 +73,7 @@ description: 'Demo of Material design portfolio template by TemplateFlip.com.'
 </section>
 
 <section class="section--center mdl-grid site-max-width homepage-portfolio">
-    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio">View Portfolio</a>
+    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio.html">View Portfolio</a>
 </section>
 
 <div class="homepage-footer">
