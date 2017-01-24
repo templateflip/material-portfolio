@@ -1,9 +1,11 @@
 # Material Design Portfolio Template
 A Material design portfolio template built with [Material Design Light](https://getmdl.io/) framework by TemplateFlip.com.
 
-**[Live Demo](https://demo.templateflip.com/material-portfolio/)**  **Download**
+**[Live Demo](https://demo.templateflip.com/material-portfolio/)**
 
-You may also want to check out other [Website templates](https://templateflip.com/).
+**[Download](https://templateflip.com/templates/material-portfolio/)**
+
+You may also want to check out other [Website templates](https://templateflip.com/templates/).
 
 ## Use this template from source (Optional)
 
@@ -28,4 +30,4 @@ You may also want to check out other [Website templates](https://templateflip.co
 ## License
 
 Licensed under the Creative [Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/).
-You can use this template for free in both personal as well as commercial projects. In return, just credit [TemplateFlip.com](https://templateflip.com/) for the website template on your site.
+You can use this template for free in both personal as well as commercial projects. In return, just credit [https://templateflip.com](https://templateflip.com/) for the website template on your site.
