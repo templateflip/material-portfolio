@@ -1,5 +1,5 @@
 **Material Design Portfolio Template**
-v1.0.0
+v1.0.1
 Released Date: 24th Jan, 2017
 
 A Material design portfolio template built with Material Design Light framework by TemplateFlip.com.
