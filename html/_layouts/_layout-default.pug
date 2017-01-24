@@ -1,7 +1,7 @@
 extends ./_layout-root.pug
 
 block header
-  <a href="#{site.base+'contact.html'}" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i class="material-icons">mail</i></a>
+  <a href="#{'contact.html'}" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i class="material-icons">mail</i></a>
   header.mdl-layout__header.mdl-layout__header--waterfall.site-header
     .mdl-layout__header-row.site-logo-row
       span.mdl-layout__title
@@ -10,12 +10,12 @@ block header
     .mdl-layout__header-row.site-navigation-row.mdl-layout--large-screen-only
       nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
         each item in data.menu.main         
-          a.mdl-navigation__link(href=site.base+item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
+          a.mdl-navigation__link(href=item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
 
   .mdl-layout__drawer.mdl-layout--small-screen-only
     nav.mdl-navigation.mdl-typography--body-1-force-preferred-font
       each item in data.menu.main         
-        a.mdl-navigation__link(href=site.base+item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
+        a.mdl-navigation__link(href=item.url, class={'is-active': page.path == item.url})&attributes(item.attributes)=item.title
 
 block footer
   footer.mdl-mini-footer
