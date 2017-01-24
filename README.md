@@ -9,7 +9,7 @@ You may also want to check out other [Website templates](https://templateflip.co
 
 ## Use this template from source (Optional)
 
-1. Clone or [download](https://github.com/templateflip/material-portfolio/archive/master.zip) this template.
+1. Clone this template.
 
 2. Install dependencies: ``npm install``
 
