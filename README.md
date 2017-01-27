@@ -5,6 +5,8 @@ A Material design portfolio template built with [Material Design Light](https://
 
 **[Download](https://templateflip.com/templates/material-portfolio/)**
 
+<a href="https://templateflip.com/templates/material-portfolio/"><img src="https://raw.githubusercontent.com/templateflip/material-portfolio/master/assets/img/material-portfolio-screenshot.png" alt="material portfolio"><img></a>
+
 You may also want to check out other [Website templates](https://templateflip.com/templates/).
 
 ## Use this template from source (Optional)
