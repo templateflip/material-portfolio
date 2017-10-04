@@ -1,6 +1,6 @@
 {
   "name": "material-portfolio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Material design portfolio template built with Material Design Light framework by TemplateFlip.com",
   "scripts": {
     "clean": "mmpilot clean",
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/templateflip/material-portfolio#readme",
   "devDependencies": {
-    "mmpilot": "^0.6.3",
-    "npm-run-all": "^4.0.1",
-    "shelljs": "^0.7.6"
+    "mmpilot": "^0.6.5",
+    "npm-run-all": "^4.1.1",
+    "shelljs": "^0.7.8"
   },
   "dependencies": {}
 }

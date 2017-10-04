@@ -14,7 +14,7 @@ var outPath = path.join(__dirname, package.name + '_' + package.version.split('.
 
 
 // Run external tool synchronously
-if (exec('7z a '+ outPath + ' ' + inPath).code !== 0) {
+if (exec('7z a "'+ outPath + '" "' + inPath +'"').code !== 0) {
   echo('Error: 7z commit failed');
   exit(1);
 }
