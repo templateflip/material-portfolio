@@ -1,6 +1,6 @@
 {
   "name": "material-portfolio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Material design portfolio template built with Material Design Light framework by TemplateFlip.com",
   "scripts": {
     "clean": "mmpilot clean",
